@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+	<builderActorClassName>creationalPatterns.builder.ActorExample.AngelBuilder</builderActorClassName>
+	<builderMealClassName>creationalPatterns.builder.MealExample.SubMealBuilderA</builderMealClassName>
+</config>
