@@ -4,10 +4,7 @@ public class LazySingleton
 {
 	private static LazySingleton instance = null;
 	
-	private LazySingleton()
-	{
-		;
-	}
+	private LazySingleton(){}
 	
 	synchronized public static LazySingleton getInstance()
 	{

@@ -11,8 +11,7 @@ public class ClientTV
 		try
 		{
 			TV tv;
-			TVFactory factory;
-			factory = (TVFactory) XMLUtil.getBean();
+			TVFactory factory = (TVFactory) XMLUtil.getBean();
 			tv = factory.produceTV();
 			tv.play();
 		} catch (Exception e)
