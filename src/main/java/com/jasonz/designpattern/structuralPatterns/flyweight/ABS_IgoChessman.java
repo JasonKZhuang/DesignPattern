@@ -1,4 +1,4 @@
-package structuralPatterns.flyweight;
+package com.jasonz.designpattern.structuralPatterns.flyweight;
 
 public abstract class ABS_IgoChessman
 {

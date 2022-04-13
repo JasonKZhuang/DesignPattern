@@ -1,4 +1,4 @@
-package creationalPatterns.Singleton.simple2;
+package com.jasonz.designpattern.creationalPatterns.Singleton.simple2;
 
 public class LazySingleton
 {

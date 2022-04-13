@@ -1,9 +1,9 @@
-package creationalPatterns.FactoryMethod.TVExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.TVExample;
 
-public class HaierTV implements TV
+public class HaierTV implements ITV
 {
 	public void play()
 	{
-		System.out.println("º£¶ûµçÊÓ»ú²¥·ÅÖÐ......");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½......");
 	}
 }

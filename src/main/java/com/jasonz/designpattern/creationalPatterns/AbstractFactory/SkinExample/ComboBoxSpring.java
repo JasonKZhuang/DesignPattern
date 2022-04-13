@@ -1,6 +1,6 @@
-package creationalPatterns.AbstractFactory.SkinExample;
+package com.jasonz.designpattern.creationalPatterns.AbstractFactory.SkinExample;
 
-public class ComboBoxSpring implements ComboBox
+public class ComboBoxSpring implements IComboBox
 {
 
 	public void display()

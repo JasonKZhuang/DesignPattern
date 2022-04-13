@@ -1,6 +1,6 @@
-package creationalPatterns.FactoryMethod.TVExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.TVExample;
 
 public interface TVFactory
 {
-    public TV produceTV();
+    public ITV produceTV();
 }

@@ -1,4 +1,4 @@
-package creationalPatterns.FactoryMethod.ElectricityBillExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.ElectricityBillExample;
 
 public class GetPlanFactory
 {

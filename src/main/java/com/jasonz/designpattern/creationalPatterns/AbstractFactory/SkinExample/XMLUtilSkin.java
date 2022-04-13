@@ -1,4 +1,4 @@
-package creationalPatterns.AbstractFactory.SkinExample;
+package com.jasonz.designpattern.creationalPatterns.AbstractFactory.SkinExample;
 
 import java.io.File;
 

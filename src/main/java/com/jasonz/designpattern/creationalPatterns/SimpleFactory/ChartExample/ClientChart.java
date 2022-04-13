@@ -1,8 +1,4 @@
-package creationalPatterns.SimpleFactory;
-
-import creationalPatterns.SimpleFactory.ChartExample.Chart;
-import creationalPatterns.SimpleFactory.ChartExample.ChartFactory;
-import creationalPatterns.SimpleFactory.ChartExample.XMLUtilChart;
+package com.jasonz.designpattern.creationalPatterns.SimpleFactory.ChartExample;
 
 public class ClientChart
 {

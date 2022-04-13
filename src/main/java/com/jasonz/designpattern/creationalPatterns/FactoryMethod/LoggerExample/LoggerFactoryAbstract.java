@@ -1,12 +1,12 @@
-package creationalPatterns.FactoryMethod.LoggerExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.LoggerExample;
 
 public abstract class LoggerFactoryAbstract
 {
 	public void writeLog() 
 	{
-		LoggerProduct logger = this.createLogger();
+		ILoggerProduct logger = this.createLogger();
 		logger.writeLog();
 	}
 	
-	public abstract LoggerProduct createLogger();
+	public abstract ILoggerProduct createLogger();
 }

@@ -1,4 +1,4 @@
-package behavioralPatterns.ChainOfResponsibility;
+package com.jasonz.designpattern.behavioralPatterns.ChainOfResponsibility;
 
 public interface IChain
 {

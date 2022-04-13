@@ -1,6 +1,6 @@
-package creationalPatterns.FactoryMethod.LoggerExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.LoggerExample;
 
-public class LoggerProductDatabase implements LoggerProduct
+public class LoggerProductDatabase implements ILoggerProduct
 {
 
 	public void writeLog()

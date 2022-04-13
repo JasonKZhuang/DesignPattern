@@ -1,7 +1,7 @@
 /**
  * 
  */
-package structuralPatterns.adapter.algExample;
+package com.jasonz.designpattern.structuralPatterns.adapter.algExample;
 
 /**
  * @author Jason.Zhuang

@@ -1,4 +1,4 @@
-package structuralPatterns.adapter.algExample;
+package com.jasonz.designpattern.structuralPatterns.adapter.algExample;
 
 public class BinarySearchLib
 {

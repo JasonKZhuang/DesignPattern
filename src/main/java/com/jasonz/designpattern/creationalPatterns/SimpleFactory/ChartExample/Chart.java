@@ -1,4 +1,4 @@
-package creationalPatterns.SimpleFactory.ChartExample;
+package com.jasonz.designpattern.creationalPatterns.SimpleFactory.ChartExample;
 
 public interface Chart
 {

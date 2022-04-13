@@ -1,9 +1,9 @@
-package structuralPatterns.adapter;
+package com.jasonz.designpattern.structuralPatterns.adapter;
 
-import structuralPatterns.adapter.algExample.ClassAdapter;
-import structuralPatterns.adapter.algExample.ConcerateAdapter;
-import structuralPatterns.adapter.algExample.IScoreOperation;
-import structuralPatterns.adapter.algExample.OperationAdapter;
+import com.jasonz.designpattern.structuralPatterns.adapter.algExample.ClassAdapter;
+import com.jasonz.designpattern.structuralPatterns.adapter.algExample.ConcerateAdapter;
+import com.jasonz.designpattern.structuralPatterns.adapter.algExample.IScoreOperation;
+import com.jasonz.designpattern.structuralPatterns.adapter.algExample.OperationAdapter;
 
 public class AdapterExampleMain
 {

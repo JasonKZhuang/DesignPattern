@@ -1,9 +1,9 @@
-package creationalPatterns.FactoryMethod.TVExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.TVExample;
 
-public class HisenseTV implements TV
+public class HisenseTV implements ITV
 {
 	public void play()
 	{
-		System.out.println("º£ÐÅµçÊÓ»ú²¥·ÅÖÐ......");
+		System.out.println("ï¿½ï¿½ï¿½Åµï¿½ï¿½Ó»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½......");
 	}
 }

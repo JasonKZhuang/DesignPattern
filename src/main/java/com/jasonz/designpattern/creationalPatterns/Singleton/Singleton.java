@@ -1,19 +1,15 @@
-package creationalPatterns.Singleton;
+package com.jasonz.designpattern.creationalPatterns.Singleton;
 
-public class Singleton
-{
-	private static volatile Singleton instance = null;
-	
-	private Singleton()
-	{
-	}
+public class Singleton {
+    private static volatile Singleton instance = null;
 
-	synchronized public static Singleton getInstance()
-	{
-		if (instance == null)
-		{
-			instance = new Singleton();
-		}
-		return instance;
-	}
+    private Singleton() {
+    }
+
+    synchronized public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
 }

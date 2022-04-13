@@ -1,6 +1,6 @@
-package creationalPatterns.AbstractFactory.SkinExample;
+package com.jasonz.designpattern.creationalPatterns.AbstractFactory.SkinExample;
 
-public class TextFieldSummer implements TextField
+public class TextFieldSummer implements ITextField
 {
 
 	public void display()

@@ -1,6 +1,6 @@
-package creationalPatterns.AbstractFactory.SkinExample;
+package com.jasonz.designpattern.creationalPatterns.AbstractFactory.SkinExample;
 
-public class ButtonSpring implements Button
+public class ButtonSpring implements IButton
 {
 
 	public void display()

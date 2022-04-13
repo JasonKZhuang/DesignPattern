@@ -1,6 +1,6 @@
-package creationalPatterns.AbstractFactory.SkinExample;
+package com.jasonz.designpattern.creationalPatterns.AbstractFactory.SkinExample;
 
-public class TextFieldSpring implements TextField
+public class TextFieldSpring implements ITextField
 {
 
 	public void display()

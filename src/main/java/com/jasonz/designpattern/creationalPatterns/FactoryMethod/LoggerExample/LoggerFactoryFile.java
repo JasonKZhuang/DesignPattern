@@ -1,6 +1,6 @@
-package creationalPatterns.FactoryMethod.LoggerExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.LoggerExample;
 
-public class LoggerFactoryFile implements LoggerFactory
+public class LoggerFactoryFile implements ILoggerFactory
 {
 
 	public LoggerFactoryFile()
@@ -8,12 +8,12 @@ public class LoggerFactoryFile implements LoggerFactory
 		System.out.println("Do some initialized work for File Logger Factory.");
 	}
 	
-	public LoggerProduct createLogger()
+	public ILoggerProduct createLogger()
 	{
 		//You can wite some code for the default method to open file
 		//
 		//
-		LoggerProduct logger = new LoggerProductFile();
+		ILoggerProduct logger = new LoggerProductFile();
 		//Here you can initialize logger by invoke the initilized method in File Logger
 		//
 		//
@@ -21,12 +21,12 @@ public class LoggerFactoryFile implements LoggerFactory
 		return logger;
 	}
 
-	public LoggerProduct createLogger(String args)
+	public ILoggerProduct createLogger(String args)
 	{
 		//You can wite some code open file by giving parameter
 		//
 		//
-		LoggerProduct logger = new LoggerProductFile();
+		ILoggerProduct logger = new LoggerProductFile();
 		//Here you can initialize logger by invoke the initilized method in File Logger
 		//
 		//
@@ -34,12 +34,12 @@ public class LoggerFactoryFile implements LoggerFactory
 		return logger;
 	}
 
-	public LoggerProduct createLogger(Object obj)
+	public ILoggerProduct createLogger(Object obj)
 	{
 		//You can wite some code open file by giving Object
 		//
 		//
-		LoggerProduct logger = new LoggerProductFile();
+		ILoggerProduct logger = new LoggerProductFile();
 		//Here you can initialize logger by invoke the initilized method in File Logger
 		//
 		//

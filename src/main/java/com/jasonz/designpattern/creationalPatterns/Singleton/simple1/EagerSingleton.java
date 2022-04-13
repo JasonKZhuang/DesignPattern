@@ -1,4 +1,4 @@
-package creationalPatterns.Singleton.simple1;
+package com.jasonz.designpattern.creationalPatterns.Singleton.simple1;
 
 public class EagerSingleton
 {

@@ -1,6 +1,6 @@
-package creationalPatterns.SimpleFactory.TVExample;
+package com.jasonz.designpattern.creationalPatterns.SimpleFactory.TVExample;
 
-public class HaierTV implements TV
+public class HaierTV implements ITV
 {
 	public void play()
 	{

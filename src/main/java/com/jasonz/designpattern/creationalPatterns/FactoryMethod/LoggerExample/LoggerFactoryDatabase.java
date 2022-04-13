@@ -1,6 +1,6 @@
-package creationalPatterns.FactoryMethod.LoggerExample;
+package com.jasonz.designpattern.creationalPatterns.FactoryMethod.LoggerExample;
 
-public class LoggerFactoryDatabase implements LoggerFactory
+public class LoggerFactoryDatabase implements ILoggerFactory
 {
 
 	public LoggerFactoryDatabase()
@@ -8,12 +8,12 @@ public class LoggerFactoryDatabase implements LoggerFactory
 		System.out.println("Do some initialized work for Database Logger Factory.");
 	}
 	
-	public LoggerProduct createLogger()
+	public ILoggerProduct createLogger()
 	{
 		//You can wite some code for the default method of connecting database
 		//
 		//
-		LoggerProduct logger = new LoggerProductDatabase();
+		ILoggerProduct logger = new LoggerProductDatabase();
 		//Here you can initialize logger by invoke the initilized method in DatabaseLogger
 		//
 		//
@@ -21,12 +21,12 @@ public class LoggerFactoryDatabase implements LoggerFactory
 		return logger;
 	}
 
-	public LoggerProduct createLogger(String args)
+	public ILoggerProduct createLogger(String args)
 	{
 		//using the parameter to connect database
 		//
 		//
-		LoggerProduct logger = new LoggerProductDatabase();
+		ILoggerProduct logger = new LoggerProductDatabase();
 		//Here you can initialize logger by invoke the initilized method in DatabaseLogger
 		//
 		//
@@ -34,12 +34,12 @@ public class LoggerFactoryDatabase implements LoggerFactory
 		return logger;
 	}
 
-	public LoggerProduct createLogger(Object obj)
+	public ILoggerProduct createLogger(Object obj)
 	{
 		//using the string that is encapsulated in the obj to connect database
 		//
 		//
-		LoggerProduct logger = new LoggerProductDatabase();
+		ILoggerProduct logger = new LoggerProductDatabase();
 		//Here you can initialize logger by invoke the initilized method in DatabaseLogger
 		//
 		//

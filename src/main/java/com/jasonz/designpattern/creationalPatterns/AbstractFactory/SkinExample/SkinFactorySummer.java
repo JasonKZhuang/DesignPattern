@@ -1,19 +1,19 @@
-package creationalPatterns.AbstractFactory.SkinExample;
+package com.jasonz.designpattern.creationalPatterns.AbstractFactory.SkinExample;
 
-public class SkinFactorySummer implements SkinFactory
+public class SkinFactorySummer implements ISkinFactory
 {
 
-	public Button createButton()
+	public IButton createButton()
 	{
 		return new ButtonSummer();
 	}
 
-	public TextField createTextField()
+	public ITextField createTextField()
 	{
 		return new TextFieldSummer();
 	}
 
-	public ComboBox createComboBox()
+	public IComboBox createComboBox()
 	{
 		return new ComboBoxSummer();
 	}

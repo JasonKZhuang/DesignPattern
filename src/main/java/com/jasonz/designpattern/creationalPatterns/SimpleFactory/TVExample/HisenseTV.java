@@ -1,6 +1,6 @@
-package creationalPatterns.SimpleFactory.TVExample;
+package com.jasonz.designpattern.creationalPatterns.SimpleFactory.TVExample;
 
-public class HisenseTV implements TV
+public class HisenseTV implements ITV
 {
 	public void play()
 	{
